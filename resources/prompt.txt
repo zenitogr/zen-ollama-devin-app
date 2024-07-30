@@ -1,0 +1,11 @@
+I want to add supabase db logic. the app is the basic template of create-next-app work from there to impelemnt supabase db logic. I want a simple nextjs app with ts and tsx and app route and tailwindcss and import-alias @/* that the main page has a register button and a login button. when the user clicks on register it opens register page and he can input a unique username and any password. the username is checked for uniqueness in the supabase db and if it exists there is an error that username is taken and ask for another username from the user. if the username doesnt exist the username and password are added to supabase db and the user is presented with the main page with the register and login button. when the user presses login it opens the login page where the user inputs his username and password and if they match redirects to a protected page that says 'welcome user' and the username.
+
+technology stack: supabase db integration, jwt tokens for the session, make the pages mobile friendly and responsive so that it can work in chrome firefox and safari, in desktop/tablet/mobile. make the theme cyberpunk neon (so also tell me what the global.css should be and what each page styles.module.css be) also add gradient colors with slow animations.
+
+also dont forget to use valid ts and tsx.
+
+also any component that needs 'use client' like when you use useState and any other with secrets be 'use server'.
+
+files that you dont see, I have .env.development.local that has all the supabase secrets and public keys
+
+run with execute_bash the command ls -la to see all files
